@@ -1,0 +1,118 @@
+ body {
+    background: #18181A;
+ }
+ .navbar_start {
+    display: flex;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.8029586834733894) 0%, rgba(8,46,147,1) 0%, rgba(46,57,241,1) 100%);
+    width: 100vw;
+    height: 70px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2vw;
+    color: white;
+    font-family: 'Metropolis', sans-serif;
+    font-weight: bold;
+    font-weight: 500;
+    font-size: 1.1vw;
+
+ }
+
+ .navbar_pills{
+    margin: 1vw;
+ }
+
+ .navbar_pills:after {
+    display:block;
+    content: '';
+    border-bottom: solid 2px white;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+ }
+ .navbar_pills:hover:after {
+    transform: scaleX(1);
+ }
+
+ .navbar_pills a{
+    line-height: 70px;
+    cursor: pointer;
+ }
+
+ 
+ 
+ .navabar_logo {
+    width: 8%;
+ }
+
+ .navbar img{
+    width: 6vw;
+    height: 5vh;
+    margin: auto;
+    display: block;
+ }
+
+
+ .navbar_streaming{
+    display: flex;
+ }
+
+ .navbar_pills_streaming {
+    display: flex;
+    height: 70px;
+    line-height: 70px;
+ }
+
+ .navbar_pills_streaming:hover {
+    border-bottom: solid 2px #54d169;  
+ }
+ 
+
+
+ .navbar_end {
+    display: flex;
+    margin-left: auto;
+    justify-content: flex-end;
+    margin-right: ;
+    align-items: center;
+    height: 100%;
+ }
+
+ .search_icon {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(236deg) brightness(204%) contrast(102%);
+    
+ }
+
+ .navbar_info {
+    height: 100%;
+    display: flex;
+    margin-right: 2vw;
+    justify-content: flex-end;
+    border-left: 1px black solid;
+ }
+
+ .navbar_info_box {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+ }
+
+ .navbar_info_box:hover {
+    background-color: #001A60;
+    cursor: pointer;
+ }
+
+ .navbar_info img{
+    width: 60px;
+    height: auto;
+ }
+
+ .navbar_pills_search {
+    width: 15%
+ }
+
+
+
